@@ -4,4 +4,5 @@ scikit-learn
 pandas
 numpy
 st-star-rating
+streamlit-card
 
