@@ -11,4 +11,3 @@ SQLAlchemy
 plotly
 seaborn
 urllib3
-os-sys
