@@ -5,6 +5,7 @@ pandas
 numpy
 st-star-rating
 streamlit-card
+streamlit-option-menu
 mysql-connector-python
 SQLAlchemy
 
