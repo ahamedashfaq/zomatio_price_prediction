@@ -77,7 +77,7 @@ def add_bg_from_local():
         f"""
         <style>
         .stApp {{
-            background-image: url("https://www.google.com/imgres?q=zomato%20logo&imgurl=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2020%2F12%2FZomato-Logo-2015.png&imgrefurl=https%3A%2F%2Flogos-world.net%2Fzomato-logo%2F&docid=hVCknI47cH3eiM&tbnid=lTwX8_W_EV5nLM&vet=12ahUKEwi4tZzHq_yJAxUZwjgGHegwCscQM3oECC0QAA..i&w=3840&h=2160&hcb=2&ved=2ahUKEwi4tZzHq_yJAxUZwjgGHegwCscQM3oECC0QAA");
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4PZ9Xjyybt5Pdr_OQSi1nsi7W9n_ZnPJ1Lg&s");
             background-size: cover;
         }}
         </style>
@@ -85,7 +85,7 @@ def add_bg_from_local():
         unsafe_allow_html=True
     )
 
-add_bg_from_local()
+
 
 
 
@@ -179,10 +179,19 @@ def selectoptions():
 
 
 if page == "Home":
+    add_bg_from_local()
     left_co, cent_co,last_co = st.columns(3)
-    with cent_co:
-        st.image("data:image/png;base64,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",width = 250)
-    st.header("This App is developed to predict price of average cost of two based on Zomato Dataset. Zomato is an Indian multinational company that operates in the online food delivery, restaurant discovery, and food-tech industry. Founded in 2008 by Deepinder Goyal and Pankaj Chaddah, Zomato originally started as a restaurant review and discovery platform, allowing users to search for restaurants, read reviews, view menus, and make reservations. Over time, it expanded its services to include online food ordering and delivery, and has become one of the largest food delivery services in India.")
+    #with cent_co:
+        #st.image("data:image/png;base64,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",width = 250)
+    st.markdown("""
+        <style>
+        .big-font {
+            font-size:25px !important;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+    st.markdown('<p class="big-font">This App is developed to predict price of average cost of two based on Zomato Dataset. Zomato is an Indian multinational company that operates in the online food delivery, restaurant discovery, and food-tech industry. Founded in 2008 by Deepinder Goyal and Pankaj Chaddah, Zomato originally started as a restaurant review and discovery platform, allowing users to search for restaurants, read reviews, view menus, and make reservations. Over time, it expanded its services to include online food ordering and delivery, and has become one of the largest food delivery services in India.</p>', unsafe_allow_html=True)
+    #st.write("This App is developed to predict price of average cost of two based on Zomato Dataset. Zomato is an Indian multinational company that operates in the online food delivery, restaurant discovery, and food-tech industry. Founded in 2008 by Deepinder Goyal and Pankaj Chaddah, Zomato originally started as a restaurant review and discovery platform, allowing users to search for restaurants, read reviews, view menus, and make reservations. Over time, it expanded its services to include online food ordering and delivery, and has become one of the largest food delivery services in India.")
 
 
 
@@ -263,7 +272,7 @@ if page == "Search Restaurants":
     #-------------------Search restaurants
     df = pd.DataFrame()
     if st.button("Search"):
-        if city_option != None and (cuisine_option != None and locality_option != None ):
+        if city_option != None and cuisine_option != None and locality_option != None:
             #mycursor.execute(f"SELECT thumb, name, rating, currency FROM  zom_table  WHERE locality = '{locality_option}'' && cuisines like '%{cuisine_option}%'")
             query = (f"SELECT url, thumb, price_range, name, cuisines, city, locality, CAST(rating AS FLOAT) as rating, rating_votes, currency FROM  zom_table  WHERE locality = '{locality_option}' && cuisines like '%{cuisine_option}%' && rating >= {stars} " )
             df = pd.read_sql(query, con = connection)
@@ -271,7 +280,11 @@ if page == "Search Restaurants":
         elif city_option != None and cuisine_option != None:
             query = (f"SELECT url, thumb, price_range, name, cuisines, city, locality, CAST(rating AS FLOAT) as rating, rating_votes, currency FROM  zom_table  WHERE city = '{city_option}' && cuisines like '%{cuisine_option}%' && rating >= {stars} ")
             df = pd.read_sql(query,  con = connection)
+
             #runquery(df)
+        elif city_option != None and locality_option != None:
+            query = (f"SELECT url, thumb, price_range, name, cuisines, city, locality, CAST(rating AS FLOAT) as rating, rating_votes, currency FROM  zom_table  WHERE city = '{city_option}' && locality like '%{locality_option}%' && rating >= {stars} ")
+            df = pd.read_sql(query,  con = connection)
         else:
             html='''<p style="color:red">Sorry! Please feed values</p>'''
             st.markdown(html, unsafe_allow_html=True)
@@ -387,9 +400,3 @@ if page == "Explore":
                          color='cname',
                          color_continuous_scale=px.colors.sequential.Agsunset)
             st.plotly_chart(fig, use_container_width=True)
-
-
-            
-
-
-#streamlit run C:\Users\ashfaq.ahamed\Documents\projects1\zomato\app.py
