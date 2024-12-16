@@ -6,12 +6,19 @@ Zomato is an Indian multinational company that operates in the online food deliv
 
 
 1.AWS S3 and RDS usage for data storage and retrieval
+
 2.Data structuring and preprocessing
+
 3.Machine learning model development for price prediction
+
 4.Web application development using Streamlit
+
 5.Deployment of applications on AWS EC2
+
 6.Interactive data visualization
+
 7.Building recommendation systems
+
 
 Approach:
 Data Management:
