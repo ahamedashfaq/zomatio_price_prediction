@@ -5,47 +5,41 @@ This App is a web-based application similar to Zomato, which allows users to sel
 Zomato is an Indian multinational company that operates in the online food delivery, restaurant discovery, and food-tech industry. Founded in 2008 by Deepinder Goyal and Pankaj Chaddah, Zomato originally started as a restaurant review and discovery platform, allowing users to search for restaurants, read reviews, view menus, and make reservations. Over time, it expanded its services to include online food ordering and delivery, and has become one of the largest food delivery services in India.
 
 
-1.AWS S3 and RDS usage for data storage and retrieval
-
-2.Data structuring and preprocessing
-
-3.Machine learning model development for price prediction
-
-4.Web application development using Streamlit
-
-5.Deployment of applications on AWS EC2
-
-6.Interactive data visualization
-
-7.Building recommendation systems
+1.AWS S3 and RDS usage for data storage and retrieval<br>
+2.Data structuring and preprocessing<br>
+3.Machine learning model development for price prediction<br>
+4.Web application development using Streamlit<br>
+5.Deployment of applications on AWS EC2<br>
+6.Interactive data visualization<br>
+7.Building recommendation systems<br>
 
 
 **Approach:**<br>
-**Data Management:**
+**Data Management:**<br>
   Upload the provided Zomato dataset (in JSON format) into an AWS S3 bucket.
   Pull the dataset from S3 and preprocess it for structuring.
-  Store the structured data into AWS RDS in SQL format.
-**Model Development:**
+  Store the structured data into AWS RDS in SQL format.<br>
+**Model Development:**<br>
   Extract relevant features from the dataset (e.g., location, cuisine, average cost, ratings).
   Build a machine learning model to predict the average cost for two people based on these features.
-  Train, evaluate, and save the model for deployment.
-**Web Application:**
+  Train, evaluate, and save the model for deployment.<br>
+**Web Application:**<br>
   Build an interactive Streamlit web application.
   The app should display restaurant options based on user input (location, cuisine) and predict the average price for two people.
-  Add interactive visualizations for restaurant ratings, cuisines, and price range distribution.
-**Deployment:**
-  Host the Streamlit web application on an AWS EC2 instance for public access.
+  Add interactive visualizations for restaurant ratings, cuisines, and price range distribution.<br>
+**Deployment:**<br>
+  Host the Streamlit web application on an AWS EC2 instance for public access.<br>
 
-It is also deployed in streamlit cloud : 
-**https://zomatopriceprediction-tcfk4waydigdwdef7vougd.streamlit.app/**
+It is also deployed in streamlit cloud : <br>
+**https://zomatopriceprediction-tcfk4waydigdwdef7vougd.streamlit.app/**<br>
 
 
-A snap of the app, can be found below :
+A snap of the app, can be found below :<br>
 ![image](https://github.com/user-attachments/assets/3417cdbe-bf40-4346-9a25-7ff26b7f8772)
-
+<br>
 
 ![image](https://github.com/user-attachments/assets/16c1e987-057f-4f8e-a1d0-d049499f1e12)
-
+<br>
 
 ![image](https://github.com/user-attachments/assets/19c2a3f2-38d9-4dd7-a03e-f980f2c26bda)
 
