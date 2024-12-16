@@ -20,20 +20,20 @@ Zomato is an Indian multinational company that operates in the online food deliv
 7.Building recommendation systems
 
 
-Approach:
-Data Management:
+**Approach:**<br>
+**Data Management:**
   Upload the provided Zomato dataset (in JSON format) into an AWS S3 bucket.
   Pull the dataset from S3 and preprocess it for structuring.
   Store the structured data into AWS RDS in SQL format.
-Model Development:
+**Model Development:**
   Extract relevant features from the dataset (e.g., location, cuisine, average cost, ratings).
   Build a machine learning model to predict the average cost for two people based on these features.
   Train, evaluate, and save the model for deployment.
-Web Application:
+**Web Application:**
   Build an interactive Streamlit web application.
   The app should display restaurant options based on user input (location, cuisine) and predict the average price for two people.
   Add interactive visualizations for restaurant ratings, cuisines, and price range distribution.
-Deployment:
+**Deployment:**
   Host the Streamlit web application on an AWS EC2 instance for public access.
 
 It is also deployed in streamlit cloud : 
